@@ -1,0 +1,24 @@
+.buttonElement{
+  height: 50px;
+  width: 100px;
+  background-color: #ffbbbb;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px 1px #ffe2e2;
+  margin: 10px;
+  -webkit-transition: width 0.3s, height 4s;
+}
+.buttonElement:hover{
+  box-shadow:none;
+}
+.buttonElement:active{
+  color:yellow;
+}
+.big{
+  width: 300px;
+}
+.text{
+  width: 500px;
+  height: 400px;
+}
